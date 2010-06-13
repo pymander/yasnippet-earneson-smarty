@@ -1,0 +1,20 @@
+#+TITLE: Smarty snippets for yasnippet
+#+LANGUAGE: en
+#+AUTHOR: Erik L. Arneson
+#+EMAIL: dybbuk@LNouv.com
+
+These are Smarty snippets for use with yasnippet.  To use these,
+install nXhtml-mode and yasnippet, and then make sure you add the
+following to your Emacs initialization file:
+
+#+begin_src emacs-lisp
+(add-to-list 'auto-mode-alist '("\\.tpl$" . smarty-nxhtml-mumamo-mode))
+#+end_src
+
+All of the snippets are set up to be triggered only in smarty-mode, so
+you will need to type the opening bracket and the trigger key in order
+to activate them.
+
+Please let me know if you have any suggestions, improvements, or
+changes.  I know that the snippets are incomplete, but they represent
+most of the things that I needed to do with Smarty at the time.
