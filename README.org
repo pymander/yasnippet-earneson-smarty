@@ -24,6 +24,9 @@ most of the things that I needed to do with Smarty at the time.
 ** TODO Check for completeness of optional arguments
 
 ** TODO Make snippets for the rest of the Smarty keywords
+   What about [[http://www.smarty.net/manual/en/language.function.html.checkboxes.php][html_checkboxes]] and the rest of those?  They may be
+   tricky, or the snippets might be harder to use than just writing
+   the code manually.  Can snippet groups be used here?
 
 ** TODO Possible drop-down list for 'if' conditionals?
    This sounds pretty obnoxious to me.  Could be an optional feature?
